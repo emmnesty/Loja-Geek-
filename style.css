@@ -1,0 +1,92 @@
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header {
+    height: 55px;
+    background-color: #4b28d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomeDaLoja {
+    color: #c0c0c0;
+}
+
+main {
+    height: 350px;
+    background-color: brown;
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4b28d7;
+    font-family: cursive;
+}
+
+.banner p {
+    margin: 0;
+    padding: 0 50px;
+    background-color: rgba( 0,0,0, 0.6); 
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+}
+
+footer {
+    margin: 0;
+}
+
+.listaProdutos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.div1:hover {
+    background-color: #eaeaea
+}
+
+.div1 {
+    border-radius: 10px;
+    border: 3px solid #4b28d7;
+}
+
+.img-produto {
+    width: 100%;
+    height: 250px;
+}
+
+.div1 > a {
+    height: 100%;
+    text-decoration: none;
+    color: #4b28d7;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* teste */
